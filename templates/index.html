@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link href="./static/index.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="welcome">
+
+{% if name %}
+
+<h1> Welcome to Todoit Today, {{name}} </h1>
+
+{% endif %}
+
+<div class="buttons">
+
+    <a href="/signup"><button> Sign Up</button></a>
+
+    <a href="/login"><button> Login </button></a>
+
+</div>
+
+</div>
+
+</body>
+</html>
